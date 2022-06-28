@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://sprites/boss.jpg" type="Texture" id=1]
+[ext_resource path="res://sprites/legende vivante low hp.jpg" type="Texture" id=2]
+[ext_resource path="res://sprites/legende vivante poison.jpg" type="Texture" id=3]
+[ext_resource path="res://sprites/legende vivante 001.jpg" type="Texture" id=4]
+
+[node name="Boss" type="Sprite"]
+position = Vector2( 527, 216 )
+scale = Vector2( 1.29857, 1.31667 )
+texture = ExtResource( 1 )
+
+[node name="LegendeVivante001" type="Sprite" parent="."]
+position = Vector2( -294.169, 225.57 )
+scale = Vector2( 3.60437, 3.51424 )
+texture = ExtResource( 4 )
+
+[node name="LegendeVivanteLowHp" type="Sprite" parent="LegendeVivante001"]
+position = Vector2( 34.6114, 0 )
+texture = ExtResource( 2 )
+
+[node name="LegendeVivantePoison" type="Sprite" parent="LegendeVivante001/LegendeVivanteLowHp"]
+position = Vector2( 35.2524, 0.216118 )
+texture = ExtResource( 3 )
