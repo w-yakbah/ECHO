@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/legende vivante poison.jpg-ebaa66b7159d2083b0808819937aabfc.stex"
+path="res://.import/icon.png-5e15649c610200b917780b73d4a2f89b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/legende vivante poison.jpg"
-dest_files=[ "res://.import/legende vivante poison.jpg-ebaa66b7159d2083b0808819937aabfc.stex" ]
+source_file="res://bullet/icon.png"
+dest_files=[ "res://.import/icon.png-5e15649c610200b917780b73d4a2f89b.stex" ]
 
 [params]
 
